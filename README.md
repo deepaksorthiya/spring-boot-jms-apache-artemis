@@ -1,5 +1,5 @@
 # Getting Started
-## Technology Stack
+## Requirements:
 ```
 Spring Boot : 3.2.2
 Java : 17
@@ -7,15 +7,15 @@ Activemq-artemis : 2.32.0
 Docker Engine: 25.0.2
 Compose: v2.24.3-desktop.1
 ```
-## Start AcitveMQ Artemis service using Docker
+## Start AcitveMQ Artemis service using Docker:
 ```bash
 docker compose up
 ```
-## Start application using
+## Start application using:
 ```bash
 mvn spring-boot:run
 ```
-Admin URL 
+Admin URL :
 * [http://localhost:8161](http://localhost:8161)
 
 Username : <b>artemis</b>
