@@ -1,5 +1,5 @@
 services:
-  redis:
+  activemq-artemis:
     image: 'apache/activemq-artemis:2.32.0'
     container_name: activemq-artemis
     ports:
